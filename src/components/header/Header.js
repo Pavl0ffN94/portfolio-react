@@ -1,4 +1,3 @@
-import './style.css';
 import git_min from './../../icons/git_min.svg';
 
 const Header = () => {
@@ -19,7 +18,7 @@ const Header = () => {
             delight and drive conversions.
           </p>
           <p>Here you can familiarize yourself with the code of this website.</p>
-          <a href="https://github.com/Pavl0ffN94/portfolio-react" className="btn">
+          <a href="#!" className="btn">
             <img className="web-icon" src={git_min} alt="git_min" />
             GitHab repo
           </a>

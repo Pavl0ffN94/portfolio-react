@@ -1,6 +1,5 @@
 import sun from './../../icons/sun.svg';
 import moon from './../../icons/moon.svg';
-import './style.css';
 
 const Navbar = () => {
   return (
@@ -20,12 +19,12 @@ const Navbar = () => {
           <ul className="nav-list">
             <li className="nav-list__item">
               <a href="./index.html" className="nav-list__link nav-list__link--active">
-                Home
+                Projects
               </a>
             </li>
             <li className="nav-list__item">
               <a href="./skills.html" className="nav-list__link">
-                Projects
+                Skills
               </a>
             </li>
             <li className="nav-list__item">
