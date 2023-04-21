@@ -11,22 +11,25 @@ const Footer = () => {
         <div className="footer__wrapper">
           <ul className="social">
             <li className="social__item">
-              <a href="https://vk.com/pavl0ffn">
+              <a target="_blank" rel="noreferrer" href="https://vk.com/pavl0ffn">
                 <img src={vk} alt="link-vk" />
               </a>
             </li>
             <li className="social__item">
-              <a href="https://github.com/Pavl0ffN94">
+              <a target="_blank" rel="noreferrer" href="https://github.com/Pavl0ffN94">
                 <img src={githab} alt="link-githab" />
               </a>
             </li>
             <li className="social__item">
-              <a href="https://www.instagram.com/bulbazavr_rrr/">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://www.instagram.com/bulbazavr_rrr/">
                 <img src={insta} alt="link-insta" />
               </a>
             </li>
           </ul>
-          <p className="copyright">2023 pavl0ffn94@gmail.com</p>
+          <p className="copyright">2023 Pavl0ffN</p>
         </div>
       </div>
     </footer>
