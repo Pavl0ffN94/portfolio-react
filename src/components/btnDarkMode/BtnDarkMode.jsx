@@ -1,12 +1,12 @@
-import {useEffect} from 'react';
-import {useLocalStorage} from '../../utils/useLocalStorage';
+import { useEffect, memo } from 'react';
+import { useLocalStorage } from '../../utils/useLocalStorage';
 import detectDarkMode from '../../utils/detectDarkMode';
 
 import sun from './sun.svg';
 import moon from './moon.svg';
 import './style.css';
 
-const BtnDarkMode = () => {
+const BtnDarkModeImpl = () => {
   const [darkMode, setDarkMode] = useLocalStorage('darkMode', detectDarkMode());
 
   useEffect(() => {
@@ -18,14 +18,14 @@ const BtnDarkMode = () => {
   }, [darkMode]);
 
   useEffect(() => {
-    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', e => {
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
       const newColorSchem = e.matches ? 'dark' : 'light';
       setDarkMode(newColorSchem);
     });
   }, [setDarkMode]);
 
   const toggleDarkMode = () => {
-    setDarkMode(currenValue => {
+    setDarkMode((currenValue) => {
       return currenValue === 'light' ? 'dark' : 'light';
     });
   };
@@ -37,10 +37,10 @@ const BtnDarkMode = () => {
     <button
       className={darkMode === 'dark' ? btnActive : btnNormal}
       onClick={toggleDarkMode}>
-      <img src={sun} alt="Liht mode" className="dark-mode-btn__icon" />
-      <img src={moon} alt="Dark mode" className="dark-mode-btn__icon" />
+      <img src={sun} alt='Liht mode' className='dark-mode-btn__icon' />
+      <img src={moon} alt='Dark mode' className='dark-mode-btn__icon' />
     </button>
   );
 };
 
-export default BtnDarkMode;
+export const BtnDarkMode = memo(BtnDarkModeImpl);

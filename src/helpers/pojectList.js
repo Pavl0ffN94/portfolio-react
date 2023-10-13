@@ -4,9 +4,6 @@ import ipAdressTrackerBig from './../img/ipAdrdessTracker_big.png';
 import costAccoMin from '../img/CostAcco_min.png';
 import costAccoBig from '../img/CostAcco_big.png';
 
-import fitnesTrainierMin from '../img/FitnesTrainier_min.png';
-import fitnesTrainierBig from '../img/FitnesTrainier_big.png';
-
 import guetarSchoolMin from '../img/GuetarSchool_min.png';
 import guetarSchoolBig from '../img/GuetarSchool_big.png';
 
@@ -26,20 +23,11 @@ const projects = [
 
   {
     title: 'Cost Accounting',
-    skills: 'JavaScript, React, Node.js, NPM, Webpack, Babel, CSS-модули',
+    skills: 'JavaScript, React, Redux Toolkit, Redux-persist  CSS-модули',
     img: costAccoMin,
     imgBig: costAccoBig,
-    gitHabLink: 'https://github.com/Pavl0ffN94/practic-react',
-    webLink: 'https://practic-react.vercel.app/',
-  },
-
-  {
-    title: `fitness trainer's business card`,
-    skills: ' HTML, CSS, Sass JavaScript, Git, PHP, Adaptive design',
-    img: fitnesTrainierMin,
-    imgBig: fitnesTrainierBig,
-    gitHabLink: 'https://github.com/Pavl0ffN94/fitnesstrainer_website',
-    webLink: 'https://adilafit.online/',
+    gitHabLink: 'https://github.com/Pavl0ffN94/cost-accounting',
+    webLink: 'https://cost-accounting-6tvtxjwks-pavl0ffn94.vercel.app/login',
   },
 
   {
@@ -59,6 +47,8 @@ const projects = [
     gitHabLink: 'https://github.com/Pavl0ffN94/JS-quiz',
     webLink: 'https://pavl0ffn94.github.io/JS-quiz/',
   },
+
+  
 ];
 
 export {projects};
