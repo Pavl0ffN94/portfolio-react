@@ -8,18 +8,14 @@ const HeaderImpl = () => {
       <div className='header_wrapper'>
         <h1 className='header_title'>
           <strong>
-            {' '}
-            Hi, my name is <em> Nikolai </em>
+            Првиет меня зовут <em> Павлов Николай </em>
           </strong>
           <br />
         </h1>
         <div className='header_text'>
-          <p>I strive to create high-quality, modern, and attractive user interfaces.</p>
-          <p>
-            My goal as a developer is to create unique and intuitive user interfaces that
-            delight and drive conversions.
-          </p>
-          <p>Here you can familiarize yourself with the code of this website.</p>
+          Добро пожаловать на мою страницу портфолио! Я junior frontend developer, готовый
+          к новым вызовам. Приглашаю вас познакомиться с моими работами и обсудить, как я
+          могу быть полезным вашей компании
           <a
             target='_blank'
             rel='noreferrer'
