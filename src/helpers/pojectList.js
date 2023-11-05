@@ -82,7 +82,7 @@ const projects = [
   },
   {
     title: 'Ambulance webite',
-    skills: ' React,Vite,TypeScript, Adaptive desing, SASS',
+    skills: ' React,Vite,TypeScript, Adaptive desing, SASS, Framer Motion',
     img: ambulanceMin,
     imgBig: ambulanceBig,
     gitHabLink: 'https://github.com/Pavl0ffN94/Ambulance-website-refreshed',
