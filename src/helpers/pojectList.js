@@ -19,10 +19,13 @@ import dashboarAppBig from '../img/DashboardApp_big.png';
 import searchGithubMin from '../img/SeachGithub_min.png';
 import searchGithubBig from '../img/SeachGithub_big.png';
 
+import ambulanceMin from '../img/Ambulance_min.png';
+import ambulanceBig from '../img/Ambulance_big.png';
+
 const projects = [
   {
     title: 'Guetar School',
-    skills: ' HTML, CSS, Sass JavaScript, Git, PHP, Adaptive design',
+    skills: ' HTML, CSS, Sass JavaScript, Git, PHP, Adaptive desing',
     img: guetarSchoolMin,
     imgBig: guetarSchoolBig,
     gitHabLink: 'https://github.com/Pavl0ffN94/guitar-tutor',
@@ -76,6 +79,14 @@ const projects = [
     imgBig: searchGithubBig,
     gitHabLink: 'https://github.com/Pavl0ffN94/TS-search-github',
     webLink: 'https://ts-search-github-jljtshm3s-pavl0ffn94.vercel.app/',
+  },
+  {
+    title: 'Ambulance webite',
+    skills: ' React,Vite,TypeScript, Adaptive desing, SASS',
+    img: ambulanceMin,
+    imgBig: ambulanceBig,
+    gitHabLink: 'https://github.com/Pavl0ffN94/Ambulance-website-refreshed',
+    webLink: 'https://ambulance-website-refreshed-ahacm60ce-pavl0ffn94.vercel.app/',
   },
   
 ];
