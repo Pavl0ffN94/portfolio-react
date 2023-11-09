@@ -74,7 +74,7 @@ const projects = [
   },
   {
     title: 'Search Github',
-    skills: ' React, Redux, TypeScript, SASS',
+    skills: ' React, TypeScript, GitHubAPI, SASS',
     img: searchGithubMin,
     imgBig: searchGithubBig,
     gitHabLink: 'https://github.com/Pavl0ffN94/TS-search-github',
