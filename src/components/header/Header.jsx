@@ -1,5 +1,5 @@
 import './style.css';
-import { memo } from 'react';
+import {memo} from 'react';
 import btnGit from './../../icons/git_min.svg';
 
 const HeaderImpl = () => {
@@ -8,7 +8,7 @@ const HeaderImpl = () => {
       <div className='header_wrapper'>
         <h1 className='header_title'>
           <strong>
-            Првиет меня зовут <em> Павлов Николай </em>
+            Привет, меня зовут <em> Павлов Николай </em>
           </strong>
           <br />
         </h1>

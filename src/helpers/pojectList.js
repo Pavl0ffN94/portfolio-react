@@ -22,6 +22,9 @@ import searchGithubBig from '../img/SeachGithub_big.png';
 import ambulanceMin from '../img/Ambulance_min.png';
 import ambulanceBig from '../img/Ambulance_big.png';
 
+import templateFormMin from '../img/templateForm_min.png'
+import templateFormBig from '../img/templateForm_big.png';
+
 const projects = [
   {
     title: 'Guetar School',
@@ -87,6 +90,14 @@ const projects = [
     imgBig: ambulanceBig,
     gitHabLink: 'https://github.com/Pavl0ffN94/Ambulance-website-refreshed',
     webLink: 'https://ambulance-website-refreshed-ahacm60ce-pavl0ffn94.vercel.app/',
+  },
+  {
+    title: 'Temlate Form',
+    skills: ' React,Vite,TypeScript, Redux Toolkit, SASS',
+    img: templateFormMin,
+    imgBig:templateFormBig,
+    gitHabLink: 'https://github.com/Pavl0ffN94/form',
+    webLink: 'https://temlate-form.vercel.app/',
   },
   
 ];
