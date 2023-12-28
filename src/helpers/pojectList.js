@@ -97,7 +97,7 @@ const projects = [
     img: templateFormMin,
     imgBig:templateFormBig,
     gitHabLink: 'https://github.com/Pavl0ffN94/form',
-    webLink: 'https://temlate-form.vercel.app/',
+    webLink: 'https://template-form-seven.vercel.app/',
   },
   
 ];
