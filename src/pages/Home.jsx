@@ -13,7 +13,7 @@ const HomeImpl = () => {
               <h2 className='title_2'>Hard Skills</h2>
               <p>
                 HTML, CSS, JavaScript, TypeScript, React, Git, GitHub, Redux, Redux
-                Toolkit, RTK AsyncThunk;
+                Toolkit, RTK AsyncThunk, RTQwery, NextJS, ExpressJS;
               </p>
             </li>
 
