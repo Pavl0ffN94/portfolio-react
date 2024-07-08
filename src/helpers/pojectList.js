@@ -19,11 +19,6 @@ import dashboarAppBig from '../img/DashboardApp_big.png';
 import searchGithubMin from '../img/SeachGithub_min.png';
 import searchGithubBig from '../img/SeachGithub_big.png';
 
-import ambulanceMin from '../img/Ambulance_min.png';
-import ambulanceBig from '../img/Ambulance_big.png';
-
-import templateFormMin from '../img/templateForm_min.png'
-import templateFormBig from '../img/templateForm_big.png';
 
 const projects = [
   {
@@ -83,22 +78,7 @@ const projects = [
     gitHabLink: 'https://github.com/Pavl0ffN94/TS-search-github',
     webLink: 'https://ts-search-github-jljtshm3s-pavl0ffn94.vercel.app/',
   },
-  {
-    title: 'Ambulance webite',
-    skills: ' React,Vite,TypeScript, Adaptive desing, SASS, Framer Motion',
-    img: ambulanceMin,
-    imgBig: ambulanceBig,
-    gitHabLink: 'https://github.com/Pavl0ffN94/Ambulance-website-refreshed',
-    webLink: 'https://ambulance-website-refreshed-ahacm60ce-pavl0ffn94.vercel.app/',
-  },
-  {
-    title: 'Temlate Form',
-    skills: ' React,Vite,TypeScript, Redux Toolkit, SASS',
-    img: templateFormMin,
-    imgBig:templateFormBig,
-    gitHabLink: 'https://github.com/Pavl0ffN94/form',
-    webLink: 'https://template-form-seven.vercel.app/',
-  },
+
   
 ];
 
